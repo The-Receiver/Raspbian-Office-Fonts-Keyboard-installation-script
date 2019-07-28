@@ -1,11 +1,15 @@
-#Raspbian-Office-Fonts-Keyboard-installation-script
-Installs libreoffice writer and pyidaungsu fonts via apt. Changes keyboard layouts to US/myanmar via setxkbmap.
+#Libreoffice, Pyidaungsu font, Pyidaungsu keyboard layout installer. 
 
 [ Running the program ]
 
 Once office.sh is in the home folder, open a terminal with Ctrl + alt + t, and enter these two commands to run the program:
 chmod +x office.sh
 ./office.sh
+
+[ Using the Pyidaungsu keyboard layout ]
+
+[TODO]
+
 
 If the script fails and anything needs to be installed manually, follow the instructions below:
 
@@ -26,3 +30,4 @@ fc-list | grep Pyidaungsu
 if the command returns nothing, this process has failed. If it returns multiple lines containing the word Pyidaungsu, it
 has succeeded. Go to LibreOffice, and check that
 the font Pyidaungsu is there by searching for the font on the font tab.
+
