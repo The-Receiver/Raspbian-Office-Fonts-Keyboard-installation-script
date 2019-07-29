@@ -2,9 +2,20 @@
 
 [ Running the program ]
 
-Once office.sh is in the home folder, open a terminal with Ctrl + alt + t, and enter these two commands to run the program:
-chmod +x office.sh
+First, open the terminal (press ctrl + alt + t ) andinstall curl using
+sudo apt install curl
+
+Then, install the office.sh file by typing
+curl -O https://raw.githubusercontent.com/The-Receiver/Raspbian-Office-Fonts-Keyboard-installation-script/master/office.sh
+
+Then, run
+sudo chmod +x office.sh
+
+and then
 ./office.sh
+
+to remove the file once everything is complete, type
+rm office.sh
 
 [ Using the Pyidaungsu keyboard layout ]
 
