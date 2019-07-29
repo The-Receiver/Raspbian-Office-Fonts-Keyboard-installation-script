@@ -10,7 +10,7 @@ curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Numbers.ttf
 }
 
 #Make directory ~/.fonts, downloading fonts, then update font cache with fc-cache
-sudo mkdir ~/.fonts && cd ~/.fonts && downloadfonts && fc-cache -f -v
+sudo mkdir ~/.fonts && cd ~/.fonts && download_fonts && fc-cache -f -v
 
 #Install the keyboard layout guide to the desktop
 cd Desktop && curl -O http://www.unicodetoday.org/pyidaungsu_mm.png
