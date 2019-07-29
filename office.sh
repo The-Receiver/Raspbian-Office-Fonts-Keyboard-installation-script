@@ -3,12 +3,8 @@
 #Installing Burmese fonts
 #Package found at: https://salsa.debian.org/kokoye2007-guest/fonts-myanmar
 
-sudo add-apt-repository -y ppa:kokoye2007/ppa
-sudo apt update
 
-sudo apt install ttf-myanmar-fonts-myanmar3
-sudo apt install ttf-myanmar-fonts-myanmarcensus
-sudo apt install ttf-myanmar-fonts-pyidaungsu
+curl -O http://www.unicodetoday.org/pyidaungsu_mm.png
 
 #Installing Libre Office
 sudo apt install libreoffice
