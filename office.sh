@@ -1,8 +1,12 @@
 #!/bin/bash
 
 #Installing Burmese fonts
-#Package found at: https://salsa.debian.org/kokoye2007-guest/fonts-myanmar
 
+#Making directory ~/.fonts
+sudo mkdir ~/.fonts && cd ~/.fonts
+
+#Pulling fonts from mcf.org
+curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Regular.ttf
 
 #Installing the keyboard layout guide
 cd Desktop && curl -O http://www.unicodetoday.org/pyidaungsu_mm.png && cd
