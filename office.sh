@@ -2,19 +2,23 @@
 
 #Installing Burmese fonts
 
-#Making directory ~/.fonts
-sudo mkdir ~/.fonts && cd ~/.fonts
-
-#Pulling fonts from mcf.org
+#Download fonts from the Myanmar Computer Federation website
+function download_fonts {
 curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Regular.ttf
+curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Bold.ttf
+curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Numbers.ttf
+}
 
-#Installing the keyboard layout guide
-cd Desktop && curl -O http://www.unicodetoday.org/pyidaungsu_mm.png && cd
+#Make directory ~/.fonts, downloading fonts, then update font cache with fc-cache
+sudo mkdir ~/.fonts && cd ~/.fonts && downloadfonts && fc-cache -f -v
 
-#Installing Libre Office
+#Install the keyboard layout guide to the desktop
+cd Desktop && curl -O http://www.unicodetoday.org/pyidaungsu_mm.png
+
+#Install Libre Office
 sudo apt install libreoffice
 
-#Installing zathura
+#Installing Zathura pdf reader
 sudo apt install zathura && sudo apt install zathura-pdf-mupdf
 
 #Changing the keyboard layout with setxkbmap (untested)
