@@ -4,6 +4,8 @@
 #Package found at: https://salsa.debian.org/kokoye2007-guest/fonts-myanmar
 
 
+#Installing the keyboard layout guide
+cd 
 curl -O http://www.unicodetoday.org/pyidaungsu_mm.png
 
 #Installing Libre Office
