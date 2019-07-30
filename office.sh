@@ -4,9 +4,9 @@
 
 #Download fonts from the Myanmar Computer Federation website
 function download_fonts {
-curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Regular.ttf
-curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Bold.ttf
-curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Numbers.ttf
+sudo curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Regular.ttf
+sudo curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Bold.ttf
+sudo curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Numbers.ttf
 }
 
 #Make directory ~/.fonts, download fonts, then update font cache with fc-cache
