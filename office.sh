@@ -25,8 +25,3 @@ sudo apt install libreoffice
 #Installing Zathura pdf reader
 echo "Installing Zathura"
 sudo apt install zathura && sudo apt install zathura-pdf-mupdf
-
-#Changing the keyboard layout with setxkbmap (untested)
-#setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll us,th
-
-
