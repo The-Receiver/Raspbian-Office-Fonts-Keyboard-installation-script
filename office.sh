@@ -20,12 +20,12 @@ cd Desktop && curl -O http://www.unicodetoday.org/pyidaungsu_mm.png
 
 #Install Libre Office
 echo "Installing Libre Office"
-sudo apt install libreoffice
+sudo apt install -y libreoffice
 
 #Installing Zathura pdf reader
 echo "Installing Zathura"
-sudo apt install zathura && sudo apt install zathura-pdf-mupdf
+sudo apt install -y zathura && sudo apt install zathura-pdf-mupdf
 
 #Installing screenfetch
 echo "Installing screenfetch"
-sudo apt install screenfetch
+sudo apt install -y screenfetch
