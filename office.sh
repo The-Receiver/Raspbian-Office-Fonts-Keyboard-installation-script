@@ -9,7 +9,7 @@ curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Bold.ttf
 curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Numbers.ttf
 }
 
-#Make directory ~/.fonts, downloading fonts, then update font cache with fc-cache
+#Make directory ~/.fonts, download fonts, then update font cache with fc-cache
 echo "Installing fonts"
 sudo mkdir ~/.fonts
 cd ~/.fonts && download_fonts && fc-cache -f -v
