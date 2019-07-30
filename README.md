@@ -8,18 +8,16 @@ Then, install the office.sh file by typing
  curl -o ~/office.sh https://raw.githubusercontent.com/The-Receiver/Raspbian-Office-Fonts-Keyboard-installation-script/master/office.sh
 
 
-Then, run
+Then,type
 sudo chmod +x office.sh
 
-and then
+and then run the program using
 ./office.sh
 
-to remove the file once everything is complete, type
-rm office.sh
+Follow the steps below to set up Burmese keyboard:
 
-[ Using the Pyidaungsu keyboard layout ]
-
-[TODO]
+In order for Burmese writing to show up you must set up a Burmese keyboard layout alongside the American one.
+To do this, follow the instructions in this tutorial: [No tutorial yet]
 
 
 If the script fails and anything needs to be installed manually, follow the instructions below:
