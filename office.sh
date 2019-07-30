@@ -2,18 +2,11 @@
 
 #Installing Burmese fonts
 
-#Download fonts from the Myanmar Computer Federation website
-function download_fonts {
-sudo curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Regular.ttf
-sudo curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Bold.ttf
-sudo curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Numbers.ttf
-}
-
 #Make directory ~/.fonts, download fonts, then update font cache with fc-cache
 printf "\nInstalling fonts \n\n"
 sleep 1
 sudo mkdir ~/.fonts
-cd ~/.fonts && download_fonts && fc-cache -f -v
+cd ~/.fonts && sudo curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Regular.ttf www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Bold.ttf www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Numbers.ttf && fc-cache -f -v
 
 #Install the keyboard layout guide to the desktop
 printf "\nInstalling keyboard layout guide. \n\n"
