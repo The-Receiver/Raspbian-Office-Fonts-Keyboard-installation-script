@@ -2,11 +2,11 @@
 
 [ Running the program ]
 
-First, open the terminal (press ctrl + alt + t ) andinstall curl using
-sudo apt install curl
+First, open the terminal (press ctrl + alt + t ).
 
 Then, install the office.sh file by typing
-curl -O https://raw.githubusercontent.com/The-Receiver/Raspbian-Office-Fonts-Keyboard-installation-script/master/office.sh
+ curl -o ~/office.sh https://raw.githubusercontent.com/The-Receiver/Raspbian-Office-Fonts-Keyboard-installation-script/master/office.sh
+
 
 Then, run
 sudo chmod +x office.sh
