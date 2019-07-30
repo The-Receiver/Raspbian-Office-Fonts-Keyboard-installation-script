@@ -25,3 +25,7 @@ sudo apt install libreoffice
 #Installing Zathura pdf reader
 echo "Installing Zathura"
 sudo apt install zathura && sudo apt install zathura-pdf-mupdf
+
+#Installing screenfetch
+echo "Installing screenfetch"
+sudo apt install screenfetch
