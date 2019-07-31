@@ -1,4 +1,4 @@
-# Installing Burmese and American keyboard layout in Raspbian
+# How to set up Burmese and American keyboard layout in Raspbian
 
 
 
