@@ -1,6 +1,7 @@
 ## Libreoffice, Pyidaungsu font, installer for the raspberry pi. 
+# Written by Eric McDowell 
 
-[ Running the program ]
+# Running the program
 
 First, open the terminal with `ctrl + alt + t `.
 
