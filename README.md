@@ -23,10 +23,14 @@ To run the program, enter the command
 ./office.sh
 ```
 
-Follow the steps below to set up the Burmese keyboard layout:
+
+## Adding Burmese and American keyboard
 
 In order for Burmese writing to show up you must set up a Burmese keyboard layout alongside the American one.
-To do this, follow the instructions in this tutorial: [No tutorial yet]
+To do this, follow the instructions in [This tutorial](Keyboard_Layout/Keyboard-layout-tutorial.md)
+## Adding Burmese and American keyboard
+
+
 
 
 ## If the fonts fail to install:
