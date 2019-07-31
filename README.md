@@ -1,5 +1,6 @@
-## Libreoffice, Pyidaungsu font, installer for the raspberry pi. 
-# Written by Eric McDowell 
+# Libreoffice, Pyidaungsu font, installer for the raspberry pi. 
+
+## Written by Eric McDowell 
 
 # Running the program
 
