@@ -11,7 +11,7 @@ cd ~/.fonts && sudo curl -O www.unicodetoday.org/downloads/Pyidaungsu-2.5.2_Regu
 #Install the keyboard layout guide to the desktop
 printf "\nInstalling keyboard layout guide. \n\n"
 sleep 1
-cd Desktop && curl -O http://www.unicodetoday.org/pyidaungsu_mm.png
+cd ~/Desktop && curl -O http://www.unicodetoday.org/pyidaungsu_mm.png
 
 #Install Libre Office
 printf "\nInstalling Libre Office \n\n"
