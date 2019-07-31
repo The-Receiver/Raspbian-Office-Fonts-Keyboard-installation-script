@@ -4,9 +4,9 @@
 
 First, open the terminal (press ctrl + alt + t ).
 
-Then, install the office.sh file by typing
+Then, install the office.sh file by typing ```
  curl -o ~/office.sh https://raw.githubusercontent.com/The-Receiver/Raspbian-Office-Fonts-Keyboard-installation-script/master/office.sh
-
+```
 
 Then,type
 sudo chmod +x office.sh
