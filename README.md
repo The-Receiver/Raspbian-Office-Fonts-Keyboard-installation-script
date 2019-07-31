@@ -1,4 +1,4 @@
-#Libreoffice, Pyidaungsu font, Pyidaungsu keyboard layout installer. 
+## Libreoffice, Pyidaungsu font, installer for the raspberry pi. 
 
 [ Running the program ]
 
@@ -9,7 +9,7 @@ Then, install the office.sh file by typing the command
  curl -o ~/office.sh https://raw.githubusercontent.com/The-Receiver/Raspbian-Office-Fonts-Keyboard-installation-script/master/office.sh
  ```
 
-Then,type
+Then, type
 ```
 sudo chmod +x office.sh
 ```
