@@ -8,6 +8,7 @@
 ![Dis hyperlink](4.png)
 ![Dis hyperlink](5.png)
 ![Dis hyperlink](6.png)
+Scroll down and select the Burmese keyboard layout, then click 'Add'
 ![Dis hyperlink](7.png)
 After you add the Burmese keyboard layout, you can close the panel window and the changes will save.
 
