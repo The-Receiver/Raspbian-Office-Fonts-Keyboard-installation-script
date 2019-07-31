@@ -11,4 +11,8 @@
 ![Dis hyperlink](7.png)
 After you add the Burmese keyboard layout, you can close the panel window and the changes will save.
 
+In order to save these settings, click "Do not reset existing options" and exit the panel.
+![Dis hyperlink](8.png)
+
+
 To toggle between Burmese and American keyboard layouts, use Shift + Caps Lock.
