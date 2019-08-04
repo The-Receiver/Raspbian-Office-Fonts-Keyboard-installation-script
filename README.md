@@ -28,7 +28,6 @@ To run the program, enter the command
 
 In order for Burmese writing to show up you must set up a Burmese keyboard layout alongside the American one.
 To do this, follow the instructions in [This tutorial](Keyboard_Layout/Keyboard-layout-tutorial.md)
-## Adding Burmese and American keyboard
 
 
 
